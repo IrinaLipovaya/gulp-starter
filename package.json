@@ -1,27 +1,29 @@
 {
-    "name": "Project",
-    "version": "1.0.0",
-    "description": "Project",
-    "main": "index.html",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Irina Lipovaya",
-    "license": "ISC",
-    "devDependencies": {
-        "browser-sync": "^2.12.5",
-        "del": "^2.2.0",
-        "gulp": "^3.9.1",
-        "gulp-autoprefixer": "^3.1.0",
-        "gulp-concat": "^2.6.0",
-        "gulp-cssnano": "^2.1.2",
-        "gulp-imagemin": "^2.4.0",
-        "gulp-jshint": "^2.0.0",
-        "gulp-plumber": "^1.1.0",
-        "gulp-sass": "^2.3.1",
-        "gulp-sourcemaps": "^2.0.0-alpha",
-        "gulp-uglify": "^1.5.3",
-        "jshint": "^2.9.2",
-        "run-sequence": "^1.1.5"
-    }
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irina Lipovaya",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "browser-sync": "^2.12.5",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "run-sequence": "^1.1.5"
+  }
 }

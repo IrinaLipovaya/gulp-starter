@@ -13,6 +13,7 @@ var plumber = require('gulp-plumber');
 var runSequence = require('run-sequence');
 var clean = require('del');
 var browserSync = require('browser-sync').create();
+var babel = require('gulp-babel');
 
 // CSS
 gulp.task('css', function () {
@@ -31,6 +32,7 @@ gulp.task('js', function () {
     return gulp.src('src/js/*.js')
         .pipe(plumber())
         .pipe(sourcemaps.init())
+        .pipe(babel())
         .pipe(minifyJs())
         .pipe(concat('main.js'))
         .pipe(sourcemaps.write())
